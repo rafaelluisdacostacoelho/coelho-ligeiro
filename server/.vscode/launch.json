@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceRoot}/NosEmpreendedores/NosEmpreendedores.WebApi/bin/Debug/netcoreapp1.1/NosEmpreendedores.WebApi.dll",
+            "program": "${workspaceRoot}/CoelhoLigeiro/CoelhoLigeiro.WebApi/bin/Debug/netcoreapp1.1/CoelhoLigeiro.WebApi.dll",
             "args": [],
-            "cwd": "${workspaceRoot}/NosEmpreendedores/NosEmpreendedores.WebApi",
+            "cwd": "${workspaceRoot}/CoelhoLigeiro/CoelhoLigeiro.WebApi",
             "stopAtEntry": false,
             "internalConsoleOptions": "openOnSessionStart",
             "launchBrowser": {

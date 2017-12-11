@@ -34,46 +34,46 @@ export class ProjectsDashboardDb
                     }
                 }
             },
-            'detail'      : 'Aqui é apresentada uma visão geral sobre a pendência de tarefas de ontem, hoje e de amanhã.'
+            'detail'      : 'Apresenta as pendências de tarefas de ontem, hoje ou de amanhã.'
         },
         'widget2'      : {
             'title' : 'Em atraso',
             'data'  : {
-                'label': 'TASKS',
+                'label': 'TAREFAS',
                 'count': 4,
                 'extra': {
-                    'label': 'Yesterday\'s overdue',
+                    'label': 'Atrasadas de ontem',
                     'count': 2
                 }
             },
-            'detail': 'You can show some detailed information about this widget in here.'
+            'detail': 'Apresenta as tarefas em atraso.'
         },
         'widget3'      : {
             'title' : 'Problemas',
             'data'  : {
-                'label': 'OPEN',
+                'label': 'ABERTOS',
                 'count': 32,
                 'extra': {
-                    'label': 'Closed today',
+                    'label': 'Fechadas hoje',
                     'count': 0
                 }
             },
-            'detail': 'You can show some detailed information about this widget in here.'
+            'detail': 'Apresenta os problemas pendentes.'
         },
         'widget4'      : {
-            'title' : 'Features',
+            'title' : 'Características',
             'data'  : {
-                'label': 'PROPOSALS',
+                'label': 'PROPOSTAS',
                 'count': 42,
                 'extra': {
-                    'label': 'Implemented',
+                    'label': 'Implementadas',
                     'count': 8
                 }
             },
-            'detail': 'You can show some detailed information about this widget in here.'
+            'detail': '.'
         },
         'widget5'      : {
-            'title'     : 'Github Issues',
+            'title'     : 'Problemas',
             'ranges'    : {
                 'TW': 'This Week',
                 'LW': 'Last Week',

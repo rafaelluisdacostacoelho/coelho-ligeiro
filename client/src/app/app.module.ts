@@ -25,39 +25,39 @@ import { TranslateModule } from '@ngx-translate/core';
 
 const appRoutes: Routes = [
     {
-        path        : 'apps/mail',
+        path: 'apps/mail',
         loadChildren: './main/content/apps/mail/mail.module#FuseMailModule'
     },
     {
-        path        : 'apps/chat',
+        path: 'apps/chat',
         loadChildren: './main/content/apps/chat/chat.module#FuseChatModule'
     },
     {
-        path        : 'apps/calendar',
+        path: 'apps/calendar',
         loadChildren: './main/content/apps/calendar/calendar.module#FuseCalendarModule'
     },
     {
-        path        : 'apps/e-commerce',
+        path: 'apps/e-commerce',
         loadChildren: './main/content/apps/e-commerce/e-commerce.module#FuseEcommerceModule'
     },
     {
-        path        : 'apps/todo',
+        path: 'apps/todo',
         loadChildren: './main/content/apps/todo/todo.module#FuseTodoModule'
     },
     {
-        path        : 'apps/file-manager',
+        path: 'apps/file-manager',
         loadChildren: './main/content/apps/file-manager/file-manager.module#FuseFileManagerModule'
     },
     {
-        path        : 'apps/contacts',
+        path: 'apps/contacts',
         loadChildren: './main/content/apps/contacts/contacts.module#FuseContactsModule'
     },
     {
-        path        : 'apps/scrumboard',
+        path: 'apps/scrumboard',
         loadChildren: './main/content/apps/scrumboard/scrumboard.module#FuseScrumboardModule'
     },
     {
-        path      : '**',
+        path: '**',
         redirectTo: 'apps/dashboards/project'
     }
 ];
@@ -66,7 +66,7 @@ const appRoutes: Routes = [
     declarations: [
         AppComponent
     ],
-    imports     : [
+    imports: [
         BrowserModule,
         HttpModule,
         HttpClientModule,
@@ -77,7 +77,7 @@ const appRoutes: Routes = [
         TranslateModule.forRoot(),
 
         InMemoryWebApiModule.forRoot(FuseFakeDbService, {
-            delay             : 0,
+            delay: 0,
             passThruUnknownUrl: true
         }),
 
@@ -92,15 +92,14 @@ const appRoutes: Routes = [
         FuseAngularMaterialModule,
         ComponentsThirdPartyModule
     ],
-    providers   : [
+    providers: [
         FuseSplashScreenService,
         FuseConfigService,
         FuseNavigationService
     ],
-    bootstrap   : [
+    bootstrap: [
         AppComponent
     ]
 })
-export class AppModule
-{
+export class AppModule {
 }

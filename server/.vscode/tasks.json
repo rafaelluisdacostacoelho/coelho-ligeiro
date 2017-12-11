@@ -7,7 +7,7 @@
         {
             "taskName": "build",
             "args": [
-                "${workspaceRoot}/NosEmpreendedores/NosEmpreendedores.WebApi/NosEmpreendedores.WebApi.csproj"
+                "${workspaceRoot}/CoelhoLigeiro/CoelhoLigeiro.WebApi/CoelhoLigeiro.WebApi.csproj"
             ],
             "isBuildCommand": true,
             "problemMatcher": "$msCompile"
