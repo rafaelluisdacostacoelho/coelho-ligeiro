@@ -57,6 +57,10 @@ const appRoutes: Routes = [
         loadChildren: './main/content/apps/scrumboard/scrumboard.module#FuseScrumboardModule'
     },
     {
+        path: 'apps/personal-settings',
+        loadChildren: './main/content/apps/personal-settings/personal-settings.module#FusePersonalSettingsModule'
+    },
+    {
         path: '**',
         redirectTo: 'apps/dashboards/project'
     }

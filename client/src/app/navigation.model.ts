@@ -129,6 +129,18 @@ export class NavigationModel {
                             'bg': '#FF6F00',
                             'fg': '#FFFFFF'
                         }
+                    },
+                    {
+                        'id': 'personal-settings',
+                        'title': 'Configurações',
+                        'type': 'item',
+                        'icon': 'settings',
+                        'url': '/apps/personal-settings',
+                        'badge': {
+                            'title': 3,
+                            'bg': '#FF6F00',
+                            'fg': '#FFFFFF'
+                        }
                     }
                 ]
             },
